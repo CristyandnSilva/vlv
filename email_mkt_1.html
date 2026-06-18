@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="x-apple-disable-message-reformatting" />
+  <title>O volume que ninguém controla | BlueWorld</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* === RESET === */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body, html { margin: 0 !important; padding: 0 !important; width: 100% !important; }
+    img { border: 0; outline: none; text-decoration: none; display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    table { border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+
+    /* === FONT FALLBACK === */
+    body {
+      font-family: 'Montserrat', Arial, sans-serif;
+      background-color: #f0f4f8;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* === WRAPPER === */
+    .email-wrapper {
+      width: 100%;
+      background-color: #f0f4f8;
+      padding: 32px 16px;
+    }
+
+    .email-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
+
+    /* === HERO IMAGE SECTION === */
+    .hero-image-wrap {
+      width: 100%;
+      position: relative;
+      background: linear-gradient(145deg, #003B5C 0%, #005F8E 45%, #0099CC 100%);
+      min-height: 380px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    /* Water wave decorative SVG layers */
+    .hero-image-wrap::before {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 120px;
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,60 C200,120 400,0 600,60 C800,120 1000,0 1200,60 L1200,120 L0,120 Z' fill='%23ffffff' fill-opacity='0.08'/%3E%3C/svg%3E") no-repeat bottom center;
+      background-size: cover;
+    }
+
+    .hero-image-wrap::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 70px;
+      background: #ffffff;
+      clip-path: ellipse(55% 100% at 50% 100%);
+    }
+
+    /* Big decorative number */
+    .hero-drop {
+      position: absolute;
+      top: 18px;
+      right: 28px;
+      width: 180px;
+      height: 180px;
+      opacity: 0.07;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      padding: 56px 32px 100px;
+    }
+
+    .hero-eyebrow {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #7DD4F5;
+      margin-bottom: 20px;
+    }
+
+    .hero-headline {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 36px;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.15;
+      margin-bottom: 12px;
+    }
+
+    .hero-headline em {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-weight: 700;
+      color: #7DD4F5;
+      display: block;
+    }
+
+    .hero-sub {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      color: rgba(255,255,255,0.80);
+      line-height: 1.6;
+      max-width: 440px;
+      margin: 0 auto;
+    }
+
+    /* Water drop icon inline */
+    .drop-icon {
+      margin: 0 auto 20px;
+      width: 52px;
+      height: 52px;
+    }
+
+    /* === BODY SECTIONS === */
+    .section {
+      padding: 40px 48px;
+    }
+
+    .section-tight {
+      padding: 28px 48px;
+    }
+
+    .section-gray {
+      background-color: #f7fafc;
+      padding: 36px 48px;
+    }
+
+    /* === TYPOGRAPHY === */
+    h2 {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 22px;
+      font-weight: 800;
+      color: #003B5C;
+      line-height: 1.3;
+      margin-bottom: 16px;
+    }
+
+    h2 span.accent {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-weight: 700;
+      color: #0099CC;
+    }
+
+    p {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 15px;
+      color: #3D5466;
+      line-height: 1.75;
+      margin-bottom: 14px;
+    }
+
+    p strong {
+      color: #003B5C;
+      font-weight: 700;
+    }
+
+    p.big {
+      font-size: 17px;
+      font-weight: 600;
+      color: #003B5C;
+    }
+
+    /* === HIGHLIGHT BOX === */
+    .highlight-box {
+      background: linear-gradient(135deg, #003B5C 0%, #005F8E 100%);
+      border-radius: 10px;
+      padding: 28px 32px;
+      margin: 24px 0;
+    }
+
+    .highlight-box p {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .highlight-box p em {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      color: #7DD4F5;
+      font-size: 18px;
+    }
+
+    /* === STAT CARDS === */
+    .stat-row {
+      display: flex;
+      gap: 16px;
+      margin: 24px 0;
+    }
+
+    .stat-card {
+      flex: 1;
+      background-color: #EBF7FF;
+      border-left: 4px solid #0099CC;
+      border-radius: 0 8px 8px 0;
+      padding: 18px 20px;
+    }
+
+    .stat-card .stat-number {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 28px;
+      font-weight: 800;
+      color: #003B5C;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .stat-card .stat-label {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      color: #005F8E;
+      line-height: 1.4;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* === CHECKLIST === */
+    .check-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    .check-list li {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 14px;
+      color: #3D5466;
+      line-height: 1.6;
+      padding: 10px 0 10px 36px;
+      position: relative;
+      border-bottom: 1px solid #e8f0f5;
+    }
+
+    .check-list li:last-child { border-bottom: none; }
+
+    .check-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 12px;
+      width: 22px;
+      height: 22px;
+      background: #003B5C;
+      border-radius: 50%;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='10' viewBox='0 0 12 10'%3E%3Cpath d='M1 5l3 3 7-7' stroke='%23ffffff' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    /* === DIVIDER === */
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, #d0e8f5, transparent);
+      margin: 0 48px;
+    }
+
+    /* === CTA SECTION === */
+    .cta-section {
+      background: linear-gradient(135deg, #003B5C 0%, #005F8E 60%, #0099CC 100%);
+      padding: 48px 48px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-section::before {
+      content: '';
+      position: absolute;
+      top: -60px; right: -60px;
+      width: 240px; height: 240px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.04);
+    }
+
+    .cta-section h2 {
+      color: #ffffff;
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+
+    .cta-section h2 span.accent {
+      color: #7DD4F5;
+    }
+
+    .cta-section p {
+      color: rgba(255,255,255,0.80);
+      font-size: 15px;
+      margin-bottom: 28px;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background-color: #7DD4F5;
+      color: #003B5C !important;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      padding: 18px 44px;
+      border-radius: 50px;
+      text-decoration: none !important;
+      transition: background 0.2s;
+    }
+
+    .cta-btn:hover {
+      background-color: #a8e4fa;
+    }
+
+    .cta-note {
+      display: block;
+      margin-top: 14px;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 12px;
+      color: rgba(255,255,255,0.55);
+    }
+
+    /* === PRODUCT BADGE === */
+    .product-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #EBF7FF;
+      border: 1.5px solid #0099CC;
+      border-radius: 50px;
+      padding: 8px 18px;
+      margin-bottom: 24px;
+    }
+
+    .product-badge span {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      color: #005F8E;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* === FOOTER === */
+    .footer {
+      background-color: #f0f4f8;
+      padding: 28px 48px;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      color: #003B5C;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+    }
+
+    .footer p {
+      font-size: 12px;
+      color: #8a9bb0;
+      margin-bottom: 6px;
+    }
+
+    .footer a {
+      color: #0099CC;
+      text-decoration: underline;
+    }
+
+    /* === RESPONSIVE === */
+    @media only screen and (max-width: 600px) {
+      .email-wrapper { padding: 0 !important; }
+      .email-container { border-radius: 0 !important; }
+
+      .hero-content { padding: 48px 24px 90px !important; }
+      .hero-headline { font-size: 28px !important; }
+      .hero-eyebrow { font-size: 10px !important; }
+      .hero-sub { font-size: 13px !important; }
+
+      .section, .section-gray, .section-tight, .cta-section { padding-left: 24px !important; padding-right: 24px !important; }
+      .divider { margin-left: 24px !important; margin-right: 24px !important; }
+      .footer { padding-left: 24px !important; padding-right: 24px !important; }
+
+      h2 { font-size: 20px !important; }
+      p { font-size: 14px !important; }
+
+      .stat-row {
+        flex-direction: column !important;
+        gap: 12px !important;
+      }
+
+      .cta-btn {
+        display: block !important;
+        width: 100% !important;
+        padding: 18px 24px !important;
+        text-align: center !important;
+      }
+
+      .highlight-box { padding: 22px 20px !important; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="email-wrapper">
+  <div class="email-container">
+
+    <!-- ==================== HERO IMAGE ==================== -->
+    <div class="hero-image-wrap">
+      <!-- Decorative water drop SVG -->
+      <svg class="hero-drop" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M100 10 C100 10 20 100 20 140 C20 173 57 190 100 190 C143 190 180 173 180 140 C180 100 100 10 100 10Z" fill="#ffffff"/>
+      </svg>
+
+      <div class="hero-content">
+        <!-- Small water icon -->
+        <svg class="drop-icon" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="26" cy="26" r="25" fill="rgba(255,255,255,0.12)" stroke="rgba(125,212,245,0.5)" stroke-width="1.5"/>
+          <path d="M26 10 C26 10 13 24 13 32 C13 39.2 18.9 45 26 45 C33.1 45 39 39.2 39 32 C39 24 26 10 26 10Z" fill="#7DD4F5" opacity="0.9"/>
+          <path d="M26 38 C22 38 19 35.3 19 32" stroke="white" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+        </svg>
+
+        <p class="hero-eyebrow">BlueWorld &nbsp;|&nbsp; Gestão de Água para Empresas</p>
+
+        <h1 class="hero-headline">
+          O volume que<br />
+          <em>ninguém controla</em>
+        </h1>
+        <p class="hero-sub">
+          E o que isso pode custar para a sua empresa todo mês.
+        </p>
+      </div>
+    </div>
+    <!-- /HERO -->
+
+    <!-- ==================== ABERTURA ==================== -->
+    <div class="section">
+      <p class="big">Você sabe exatamente quanto de água a sua empresa consome todo mês?</p>
+      <p>
+        A maioria dos gestores responde que sim. Mas quando a gente olha a conta de água de perto, a resposta muda.
+      </p>
+      <p>
+        O consumo de água em empresas raramente é revisado. Ele cresce mês a mês sem que ninguém perceba. E continua crescendo porque <strong>ninguém foi encarregado de controlar esse volume.</strong>
+      </p>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- ==================== PROBLEMA / AGITAÇÃO ==================== -->
+    <div class="section-gray">
+      <h2>O que acontece quando o consumo fica <span class="accent">fora de controle</span></h2>
+
+      <ul class="check-list">
+        <li>A conta de água sobe todo mês, mas a operação continua a mesma</li>
+        <li>Nenhum equipamento quebrou. Nenhuma torneira ficou aberta. O volume simplesmente é alto</li>
+        <li>A empresa paga por água que não precisa gastar, sem saber disso</li>
+        <li>Esse custo se repete em janeiro, fevereiro, março. Todo ano.</li>
+      </ul>
+
+      <div class="highlight-box">
+        <p>
+          <em>O maior custo escondido de uma empresa</em> não está no estoque parado nem na energia elétrica. Está na água que ninguém revisou.
+        </p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- ==================== SOLUÇÃO ==================== -->
+    <div class="section">
+      <div class="product-badge" role="note" aria-label="Produto BlueWorld">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M8 1.5C8 1.5 2.5 7 2.5 10.5C2.5 13.5 5 15 8 15C11 15 13.5 13.5 13.5 10.5C13.5 7 8 1.5 8 1.5Z" fill="#0099CC"/>
+        </svg>
+        <span>VLV da BlueWorld</span>
+      </div>
+
+      <h2>A solução que <span class="accent">reduz o volume</span> sem mudar nada na sua empresa</h2>
+
+      <p>
+        A VLV da BlueWorld é instalada nos chuveiros e torneiras da sua empresa em menos de um dia. Sem obra. Sem parar a operação. Sem que os colaboradores notem qualquer diferença.
+      </p>
+      <p>
+        O resultado aparece direto na fatura. <strong>A conta de água cai. O volume consumido cai. E o custo que ninguém enxergava some do seu orçamento.</strong>
+      </p>
+
+      <!-- Stat Cards -->
+      <div class="stat-row">
+        <div class="stat-card">
+          <div class="stat-number">0</div>
+          <div class="stat-label">Obras necessárias para instalar</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">1 dia</div>
+          <div class="stat-label">Para a VLV da BlueWorld estar funcionando</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">Imediato</div>
+          <div class="stat-label">Impacto na conta de água da empresa</div>
+        </div>
+      </div>
+
+      <p>
+        Já temos empresas com contas de água menores desde o primeiro mês depois da instalação. <strong>Sem complicar. Sem mudar rotina. Sem depender de conscientização de equipe.</strong>
+      </p>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- ==================== PROVA SOCIAL (reforço) ==================== -->
+    <div class="section-tight section-gray">
+      <h2>O que muda depois da <span class="accent">VLV da BlueWorld</span></h2>
+      <ul class="check-list">
+        <li>Fatura de água menor todos os meses, sem depender de mudança de comportamento</li>
+        <li>Consumo de água controlado com um dado real antes e depois da instalação</li>
+        <li>Nenhum colaborador percebe diferença no uso do dia a dia</li>
+        <li>A empresa passa a ter controle sobre um custo que antes era invisível</li>
+      </ul>
+    </div>
+
+    <!-- ==================== CTA PRINCIPAL ==================== -->
+    <div class="cta-section">
+      <h2>Descubra quanto a sua empresa <span class="accent">pode economizar na conta de água</span></h2>
+      <p>
+        Fale com a BlueWorld agora. A gente mostra como funciona e o que muda na sua fatura.
+      </p>
+      <a href="https://api.whatsapp.com/send/?phone=554892005379&text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es+sobre+as+solu%C3%A7%C3%B5es+da+Blue+World+para+minha+empresa%21&type=phone_number&app_absent=0" class="cta-btn" target="_blank" rel="noopener noreferrer">
+        Quero controlar meu consumo de água
+      </a>
+      <span class="cta-note">Sem compromisso. Sem burocracia. Só resultado.</span>
+    </div>
+
+    <!-- ==================== FOOTER ==================== -->
+    <div class="footer">
+      <div class="footer-logo">BLUE WORLD</div>
+      <p>Reduza o consumo de água sem mudar nada na sua empresa.</p>
+      <p style="margin-top: 16px;">
+        <a href="#">Descadastrar</a> &nbsp;&middot;&nbsp;
+        <a href="https://seloblueworld.com.br" target="_blank" rel="noopener noreferrer">seloblueworld.com.br</a>
+      </p>
+      <p style="margin-top: 8px; font-size: 11px; color: #b0bfcc;">
+        Voce esta recebendo este email porque demonstrou interesse na BlueWorld ou solicitou mais informacoes sobre gestao hidrica empresarial.
+      </p>
+    </div>
+
+  </div><!-- /email-container -->
+</div><!-- /email-wrapper -->
+
+</body>
+</html>
